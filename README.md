@@ -1,20 +1,23 @@
 # internship-task
 
-This is a test assignment for TravelTime internship.
+This is a test assignment for Scala TravelTime internship.
 
-In this test task, your goal is to analyze two provided JSON files - 
-one containing region coordinates, the other listing various locations. 
-You need to parse these files and create an algorithm that matches the locations to their regions based on the coordinates.
-One region can contain multiple locations and one location can match multiple regions.
-The result should be a json which contains names of each regions and their corresponding locations.
+For this test task your goal is to match locations to their appropriate regions. 
+Each location has a coordinate. You have to find which locations fit into given regions by their coordinates. 
+A single region can contain multiple locations. A single location can appear in multiple regions, thus meaning regions can overlap with each other.
+Locations and regions are provided in separate JSON files. You will have to parse these files to read locations and regions data. 
+
+After you successfully parsed JSON files you will need to create an algorithm or use third party library that matches locations to their regions based on their coordinates.
+The result of your task should be a JSON file which list all of the regions with their coresponding locations.
+
 
 **Reminder**:
 
-One region can contain multiple polygons. To display provided regions on a map, you can use this website.
+One region can contain multiple polygons. To display coordinates of provided regions on a map, you can use this website https://geojson.io/. 
 
 ### Input files:
 
-Locations:
+[Locations](input/locations.json):
 ```js
 [
   {
@@ -25,7 +28,7 @@ Locations:
 ]
 ```
 
-Regions:
+[Regions](input/regions.json):
 ```js
 [
   {
@@ -41,7 +44,7 @@ Regions:
 
 ### Output files:
 
-Results:
+[Results](output/results.json):
 ```js
 [
   {
@@ -57,10 +60,10 @@ Results:
 
 
 ### Main requirements:
-* Submit your solution to github and send us a link to the repository
+* Submit your solution that we could access it via link, we strongly recommend doing it via GitHub repository
 * Cover all edge cases and make sure that your solution works correctly
-* Create a cli command which will take regions and locations files as arguments. Example: **./your-cli-cmd --regions=regions.json --locations=locations.json --output=results.json**
-* Create a readme where you'll explain how to run this cli command 
+* Describe how to run your program with a cli command which takes regions and locations as input parameters. Example: **./your-cli-cmd --regions=regions.json --locations=locations.json --output=results.json**
+* Create a README which explains how to run your program.
 
 
 ### Optional requirements:
