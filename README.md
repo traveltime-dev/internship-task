@@ -13,7 +13,47 @@ The result of your task should be a JSON file which list all of the regions with
 
 **Reminder**:
 
-One region can contain multiple polygons. To display coordinates of provided regions on a map, you can use this website https://geojson.io/. 
+One region can contain multiple polygons. To display coordinates of provided regions on a map, you can use this website https://geojson.io/.
+
+To do it use the following format:
+```js
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              22.529892879491626,
+              6.790980004606666
+            ],
+            [
+              29.763365768917964,
+              0.977892637346514
+            ],
+            [
+              33.78561805874617,
+              7.542737166575662
+            ],
+            [
+              25.603070278174954,
+              10.284504073954949
+            ],
+            [
+              22.529892879491626,
+              6.790980004606666
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    }
+  ]
+}
+```
 
 ### Input files:
 
@@ -62,8 +102,8 @@ One region can contain multiple polygons. To display coordinates of provided reg
 ### Main requirements:
 * Submit your solution that we could access it via link, we strongly recommend doing it via GitHub repository
 * Cover all edge cases and make sure that your solution works correctly
-* Describe how to run your program with a cli command which takes regions and locations as input parameters. Example: **./your-cli-cmd --regions=regions.json --locations=locations.json --output=results.json**
-* Create a README which explains how to run your program.
+* Describe how to run your program in terminal. Pass region and location files as input parameters. Example: **scala your-app --regions=regions.json --locations=locations.json --output=results.json**
+* Create a README which explains how to compile and run your program.
 
 
 ### Optional requirements:
