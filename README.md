@@ -63,7 +63,7 @@ One region can contain multiple polygons. To display coordinates of provided reg
 * Submit your solution that we could access it via link, we strongly recommend doing it via GitHub repository
 * Cover all edge cases and make sure that your solution works correctly
 * Describe how to run your program in terminal. Pass region and location files as input parameters. Example: **scala your-app --regions=regions.json --locations=locations.json --output=results.json**
-* Create a README which explains how to compile and run your program.
+* Create a README which explains how to compile and run your program
 
 
 ### Optional requirements:
