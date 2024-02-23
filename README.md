@@ -64,9 +64,9 @@ One region can contain multiple polygons. To display coordinates of provided reg
 * Cover all edge cases and make sure that your solution works correctly
 * Describe how to run your program in terminal. Pass region and location files as input parameters. Example: **scala your-app --regions=regions.json --locations=locations.json --output=results.json**
 * Create a README which explains how to compile and run your program
+* Cover your solution by tests (including all edge cases)
 
 
 ### Optional requirements:
-* Cover your solution by tests (including all edge cases)
 * Implement it in scala
 * Implement algorithm which will match the location with the corresponding region
