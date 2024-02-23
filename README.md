@@ -60,7 +60,7 @@ One region can contain multiple polygons. To display coordinates of provided reg
 
 
 ### Main requirements:
-* Submit your solution that we could access it via link, we strongly recommend doing it via GitHub repository
+* Submit your solution that we could access, you should do it via GitHub repository. If you are not writing your solution in Scala or Java, it would be convenient for us if you send an additional link to replit.com with your solution. Replit is an online IDE and hosting platform, if you submit the code there we won't have to try to run C# on Linux.
 * Cover all edge cases and make sure that your solution works correctly
 * Describe how to run your program in terminal. Pass region and location files as input parameters. Example: **scala your-app --regions=regions.json --locations=locations.json --output=results.json**
 * Create a README which explains how to compile and run your program
