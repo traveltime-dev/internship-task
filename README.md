@@ -64,6 +64,7 @@ One region can contain multiple polygons. To display coordinates of provided reg
 
 
 ### Main requirements:
+* Any statically typed programming language can be used for this task
 * Submit your solution that we could access, you should do it via a GitHub repository. If you are not writing your solution in Scala or Java, it would be convenient for us if you send an additional link to [Replit](https://replit.com/) with your solution. Replit is an online IDE and hosting platform. If you submit the code there, we can easily run it without setting up languange dependencies
 * Cover all edge cases and make sure that your solution works correctly
 * Create a README which describes how to run your program in the terminal. Pass region and location files as input parameters. Example: **scala your-app --regions=regions.json --locations=locations.json --output=results.json**
