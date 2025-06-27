@@ -10,7 +10,7 @@ For this test task your goal is to match locations to their appropriate regions.
 You have to find which locations are within the given regions. 
 A single region can contain multiple locations. A single location can appear in multiple regions, thus meaning regions can overlap with each other.
 Locations and regions are provided in separate JSON files. More specifically, they are in the
-[GeoJSON](https://geojson.org/) format). You will have to parse these files to read locations and regions data. 
+[GeoJSON](https://geojson.org/) format. You will have to parse these files to read locations and regions data. 
 
 After you successfully parsed JSON files you will need to create an algorithm or use third party library that matches locations to their regions based on their coordinates.
 The result of your task should be a JSON file which list all of the regions with their coresponding locations.
