@@ -74,6 +74,8 @@ One region can contain multiple polygons. To display coordinates of provided reg
 
 ### Optional requirements:
 * Implement it in Scala
+* If you are not using Scala, see if your language supports any functional patterns and try to use them.
+  Even non-FP languages often have FP patterns (`LINQ` in `C#`, `Streams` in `Java`...)
 * Implement the algorithm which will match the location with the corresponding region
 
 ### Usage of AI for the solution
